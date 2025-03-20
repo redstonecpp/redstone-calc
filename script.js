@@ -48,7 +48,7 @@ function simulate() {
         data: {
             labels: x,
             datasets: [{
-                label: `P(少なくとも ${m} 回当選)`,
+                label: `P(少なくとも ${m} 回成功)`,
                 data: y,
                 borderColor: 'blue',
                 fill: false
